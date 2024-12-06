@@ -25,3 +25,9 @@ npx hardhat ignition deploy ./ignition/modules/Lock.js --network localhost
 ```bash
 npx hardhat test test/Shipping.js
 ```
+
+### ERC20
+
+```bash
+npm install @openzeppelin/contracts
+```
