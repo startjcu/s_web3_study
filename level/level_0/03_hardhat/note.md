@@ -31,3 +31,25 @@ npx hardhat test test/Shipping.js
 ```bash
 npm install @openzeppelin/contracts
 ```
+
+### dotenv
+
+```bash
+npm i dotenv
+```
+
+### 配置 .env 文件
+
+```bash
+# https://dashboard.alchemy.com/apps
+ALCHEMY_API_KEY=yourAlchemyApiKey
+
+# 钱包、账户详情、显示私钥
+PRIVATE_KEY=yourPrivateKey
+```
+
+### 部署到测试网络
+
+```bash
+npx hardhat ignition deploy ./ignition/modules/TodoList.js --network sepolia
+```
